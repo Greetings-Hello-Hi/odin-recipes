@@ -1,0 +1,41 @@
+h1,
+h2 {
+    font-family: Helvetica, sans-serif; 
+}
+
+#home,
+.intro,
+.menu {
+    text-align: center;
+}
+
+#home {
+    background-color: #80808060;
+}
+
+.intro {
+    font-size: 18px; 
+    font-weight: 600;
+}
+
+.menu {
+    font-family: Georgia, serif; 
+    font-size: 21px; 
+    list-style-type: none;
+}
+
+.sprouts {
+    background-color: hsl(120, 90%, 30%, 0.3); 
+    color: #006400;
+}
+
+.tofu {
+    background-color: hsl(45, 90%, 45%, 0.3); 
+    color: #A52A2A;
+}
+
+.salmon {
+    background-color: hsl(3, 100%, 60%, 0.3); 
+    color: #B22222;
+}
+

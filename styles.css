@@ -3,25 +3,35 @@ h2 {
     font-family: Helvetica, sans-serif; 
 }
 
-#home,
-.intro,
-.menu {
+.heading, 
+.body {
     text-align: center;
+    box-sizing: border-box; 
+    width: 500px; 
+    margin: 0 auto; 
 }
 
 #home {
     background-color: #80808060;
+    color: blueviolet; 
+    padding: 1em;
 }
 
 .intro {
+    background-color: rgba(211, 211, 211, 0.663); 
+    color: rgb(73, 73, 245); 
+    padding: 1em; 
     font-size: 18px; 
     font-weight: 600;
 }
 
 .menu {
-    font-family: Georgia, serif; 
+    background-color: lightskyblue; 
+    color: darkblue; 
+    font-family: Garamond, serif; 
     font-size: 21px; 
     list-style-type: none;
+    padding: 1em; 
 }
 
 .sprouts {
